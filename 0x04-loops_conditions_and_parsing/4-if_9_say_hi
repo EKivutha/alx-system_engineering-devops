@@ -4,12 +4,10 @@
 
 count=0
 
-while [ $count -lt 10 ]
-do
-	if [ $count -eq 9 ]
-	then
+while [ $count -lt 10 ]; do
+	if [ $count -eq 9 ]; then
 		echo "Hi"
 	fi
-	echo "Holberton School"
-	(( count++ ))
+	echo "Best School"
+	((count++))
 done
